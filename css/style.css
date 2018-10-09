@@ -270,7 +270,7 @@ header nav a {
   padding-right: 10px;
   padding-left: 10px;
   padding-bottom: 10px;
-  font-family: Montserrat;
+  font-family: Roboto;
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
@@ -318,6 +318,16 @@ nav img{
   margin: 0;
   text-shadow: 0 0 10px black;
   background: rgba(0,0,0,0.6);
+}
+.portion h2 p {
+  color: white;
+  font-weight: normal;
+  font-size: 22px;
+  padding: 2em 20rem;
+  text-align: justify;
+  height: 500px;
+  margin: 0;
+  text-shadow: 0 0 10px black;
 }
 
 .info {
