@@ -1,0 +1,345 @@
+/* :root {
+  font-family: 'Raleway', sans-serif;
+}
+
+body{
+  margin-top: -20px;
+  margin-left: 0px;
+  padding: 0;
+}
+
+header nav{
+  display: flex-block;
+  background: #596cad;
+  padding-left: 125px;
+  color: white;
+  font-size: 1em;
+  height: 52px;
+  position: fixed;
+  width: 100%;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+header nav a{
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+  padding: 2em 1em .5em;
+  padding-top: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  -webkit-transition: color 0.7s;
+  -moz-transition: color 0.7s;
+  -o-transition: color 0.7s;
+  transition: color 0.7s;
+}
+
+header nav a:hover {
+  color: #6377b9;
+}
+
+nav img{
+  display: block;
+  float: right;
+  padding-top: 3px;
+  padding-right: 275px;
+}
+
+nav span {
+  position: absolute;
+  left: 40px;
+  top: 10px;
+  font-weight: bold;
+  transition: all 0.5s ease-in;
+}
+
+.portion {
+  background-image:  url(../assets/fondo.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+.movetext {
+  top: -30px;
+}
+/* nav {
+  display: flex-block;
+  position: fixed; 
+  width: 100%;
+  height: 52px;
+  padding-left: 125px;
+  opacity: 1;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  background-color: #596cad;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  float: left;
+  padding-top: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  -webkit-transition: color 0.7s;
+  -moz-transition: color 0.7s;
+  -o-transition: color 0.7s;
+  transition: color 0.7s;
+  -webkit-transition: font-size 1s ease-in;
+  -moz-transition: font-size 1s ease-in;
+  -o-transition: font-size 1s ease-in;
+  transition: font-size 1s;
+}
+
+nav a:hover{
+  color: #6377b9;
+}
+
+nav img{
+  display: block;
+  float: right;
+  padding-top: 3px;
+  padding-right: 275px;
+}
+
+header{
+  background-image: url(../assets/fondo1.jpeg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header>*{
+  z-index: 1;
+}
+
+header::after{
+  content: "";
+  position: absolute;
+  background: blue;
+  opacity: 0.5;
+
+  z-index: 0;
+}
+
+.parallax{
+  
+     min-height: 200px; 
+     opacity: 0.5;
+     background-attachment: fixed;
+    background-position-x: 52px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+} */ 
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+}
+
+header nav {
+  display: flex-block;
+  background: #596cad;
+  padding-left: 125px;
+  color: white;
+  font-size: 1em;
+  height: 52px;
+  position: fixed;
+  width: 100%;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+
+  transition: all 0.5s linear;
+}
+header nav a {
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+  padding: 2em 1em .5em;
+  padding-top: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  -webkit-transition: color 0.7s;
+  -moz-transition: color 0.7s;
+  -o-transition: color 0.7s;
+  transition: color 0.7s;
+
+  transition: all 0.5s linear;
+}
+.small {
+  padding: .5em 1em;
+}
+
+header nav a:hover {
+  color: #6377b9;
+}
+nav img{
+  display: block;
+  float: right;
+  padding-top: 3px;
+}
+
+.portion {
+  background-image:  url('../assets/fondo.jpg');
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  height: 700px;
+}
+.portion.two {
+  background-image: url('http://cdn.desktopwallpapers4.me/media/thumbs_400x250/4/31677.jpg');
+}
+.portion h2 {
+  color: white;
+  font-weight: normal;
+  font-size: 3em;
+  padding: 2em 0;
+  height: 500px;
+  margin: 0;
+  text-shadow: 0 0 10px black;
+  background: rgba(0,0,0,0.6);
+}
+
+.info {
+  background: #596cad;
+  color: white;
+  padding: 1em 0;
+}
+
+/* .protocol_buttons{
+  background: #596cad url(../assets/protocolbg.png);
+  padding: 0.5em 20%;
+} */
+
+.protocol_buttons::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  display: block;
+  background: #596cad url(../assets/protocolbg.png);
+  width: 100%;
+  height: 400px;
+  opacity: 0.55;
+}
+
+.protocol_buttons{
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 0;
+}
+
+.protocol_buttons p{
+  opacity: 1;
+  color: black;
+  padding: 10px 300px;
+  margin-block-start: 0;
+}
+
+.btns{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 60px 250px;;
+}
+
+.info h3{
+  text-align: center;
+  font-size: 40px;
+}
+
+.button {
+  text-align: center;
+}
+.button a {
+  display: inline-block;
+  border: 2px solid #596cad;
+  padding: .75em 1.5em;
+  background-color: #596cad;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 10px;
+  letter-spacing: .15em;
+  height: 250px;
+  width: 180px;
+  word-spacing: .25em;
+  font-weight: bold;
+  opacity: 0.95;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.button a:hover {
+  color: #FFFAF0;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+footer.info {
+  color: #FFFAF0;
+  background: #777;
+  padding: 0 auto;
+  text-align: center;
+}
+
+#toTop img {
+  width: 50px;
+}
+#toTop img:hover {
+  cursor: pointer;
+}
+nav img {
+  position: absolute;
+  top: 0px;
+  right: 280px;
+  transition: all 0.5s linear;
+}
+
+.move {
+  top: -60px;
+}
+
+nav span {
+  position: absolute;
+  left: 40px;
+  top: 10px;
+  font-weight: bold;
+  transition: all 0.5s ease-in;
+}
+
+.movetext {
+  top: -30px;
+}
