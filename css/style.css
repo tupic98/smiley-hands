@@ -1,4 +1,5 @@
 .mySlides {display: none}
+.mySlides2{display: none}
 
 /* Slideshow container */
 .slideshow-container {
@@ -246,6 +247,69 @@ body {
   font-size: 18px;
 }
 
+.video-gallery::before{
+  content: "";
+  
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  display: block;
+  background: #596cad url(../assets/videos_fondo.png);
+  width: 100%;
+  height: 400px;
+  opacity: 0.55;
+  filter: blur(14px);
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.video-gallery{
+  top:1250px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  opacity: 0.9;
+  margin-top: -25px;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 400px;
+  
+}
+
+.w3-center{
+
+  display: flex;
+  padding: 40px;
+  justify-content: center;
+  align-content: center;
+}
+.w3-center .w3-section{
+  padding: 20px;
+}
+.w3-content{
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.w3-content .mySlides2{
+
+  align-content: center;
+  justify-content: center;
+  
+}
+
+.videos{
+  height: 320px;
+  width: 540px;
+}
+
 header nav {
   display: flex-block;
   background: #596cad;
@@ -299,7 +363,7 @@ nav img{
 }
 
 .portion {
-  background-image:  url('../assets/fondo.jpg');
+  background-image:  url(../assets/alt_fondo.png);
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
@@ -307,7 +371,6 @@ nav img{
   height: 700px;
 }
 .portion.two {
-  background-image: url('http://cdn.desktopwallpapers4.me/media/thumbs_400x250/4/31677.jpg');
 }
 .portion h2 {
   color: white;
@@ -360,6 +423,7 @@ nav img{
   width: 100%;
   height: 600px;
   opacity: 0.55;
+  filter: blur(5px);
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
