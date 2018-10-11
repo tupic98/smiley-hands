@@ -469,7 +469,8 @@ nav img{
   position: relative;
   color: white;
   padding: 1em 0;
-  top: 1000px
+  top: 1000px;
+  text-align: center;
 }
 
 /* .protocol_buttons{
@@ -1056,4 +1057,137 @@ nav span {
   100% {
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
   }
+}
+
+.prevencion{
+  position: relative;
+  color: white;
+  padding: 1em 0;
+  top: 1020px
+}
+
+.lenguaje{
+  top: 700px;
+  position: relative;
+  background: #596cad;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: -60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.lenguaje h3{
+  margin:0;
+  padding: 0;
+  justify-content: center;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: normal;
+  font-size: 3em;
+  text-shadow: 0 0 20px black;
+  text-transform: uppercase;
+}
+.prevencion2{
+  top:20000px;
+
+}
+
+.prevencion2 h3{
+  margin:0;
+  padding: 0;
+  justify-content: center;
+  text-transform: uppercase;
+  text-align: center;
+
+  display: flex;
+  padding-bottom: 60px;
+  background: #596cad;
+  font-weight: normal;
+
+  justify-content: center;
+  margin-top: -60px;
+  padding-top: 60px;
+  font-size: 3em;
+  text-shadow: 0 0 20px black;
+  text-transform: uppercase;
+  position: relative;
+  color: white;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.contactanos{
+  position: relative;
+  color: white;
+  padding: 1em 0;
+  top: 1020px
+}
+.contactanos2{
+  top:20000px;
+
+}
+
+.contactanos2 h3{
+  margin:0;
+  padding: 0;
+  justify-content: center;
+  text-transform: uppercase;
+  text-align: center;
+
+  display: flex;
+  padding-bottom: 60px;
+  background: #596cad;
+  font-weight: normal;
+
+  justify-content: center;
+  margin-top: -60px;
+  padding-top: 60px;
+  font-size: 3em;
+  text-shadow: 0 0 20px black;
+  text-transform: uppercase;
+  position: relative;
+  color: white;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+
+.formulario{
+  padding-right: 20px;
+  padding-block-end: 15px;
+  margin: 0.5rem;
+  align-items: left;
+  text-align: left;
+}
+
+label{
+  text-align: left;
+  justify-content: left;
+}
+.common-input {
+  border: 1px solid rgba(84, 64, 197, 0.335);
+  border-radius: 15px;
+  line-height: 30px;
+  width: 100%;
+  display: inline-block;
+  background: rgba(84, 64, 197, 0.335);
+  padding: 0 5px;
+  color: #000000;
+  margin-bottom: 15px; 
+}
+
+.common-textarea {
+  border: 1px solid rgba(84, 64, 197, 0.335);
+  border-radius: 15px;
+  width: 100%;
+  display: inline-block;
+  background: rgba(84, 64, 197, 0.335);
+  padding: 15px 5px;
+  color: #000000;
+  height: 150px;
+  margin-bottom: 15px; 
 }
