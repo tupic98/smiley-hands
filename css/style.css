@@ -269,14 +269,14 @@ body {
 }
 
 .video-gallery{
-  top:732px;
+  top:800px;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
   opacity: 0.9;
-  margin-top: -125px;
+  margin-top: -110px;
   margin-bottom: -150px;
   width: 100%;
   background-position: center center;
@@ -294,8 +294,36 @@ body {
 .video_container{
   margin: 0px 8px;
   display: block;
+  justify-content: center;
+  justify-items: center;
+  justify-self: center;
+  align-items: center;
 }
 
+.video_container p{
+  font-size: 1em;
+  font-weight: normal;
+
+  text-shadow: 0 0 1px black;
+}
+.video_container p ol{
+  font-size: 1em;
+  font-weight: normal;
+
+  text-shadow: 0 0 5px black;
+}
+.video_container > p > ol > li{
+  font-size: 1em;
+  font-weight: normal;
+
+  text-shadow: 0 0 1px black;
+}
+
+.videos_chevron{
+  display: flex;
+  justify-content: center;
+  height: 25px;
+}
 .w3-center{
   display: flex;
   justify-content: center;
@@ -309,7 +337,7 @@ body {
   align-content: center;
 }
 #movie-area{
-
+  height: 625px;
   overflow-x: auto !important;
 }
 
@@ -441,7 +469,7 @@ nav img{
   position: relative;
   color: white;
   padding: 1em 0;
-  top: 1300px
+  top: 1000px
 }
 
 /* .protocol_buttons{
