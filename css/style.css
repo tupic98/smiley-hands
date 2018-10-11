@@ -1191,3 +1191,104 @@ label{
   height: 150px;
   margin-bottom: 15px; 
 }
+
+@media screen and (max-width: 1450px){
+  .protocol_buttons p{
+    opacity: 1;
+    color: black;
+    padding: 10px 200px;
+    margin-block-start: 0;
+  }
+  .btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 60px 150px;;
+  }
+  :root{
+    width: 100%;
+  }
+}
+@media screen and (max-width:1250px){
+  header nav {
+    padding-left: 50px;
+  }
+  nav img{
+    right: 200px;
+  }
+  .portion h2 p{
+    padding: 4em 5rem;
+  }
+}
+@media screen and (max-width: 1200px){
+  .btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 60px 50px;;
+  }
+  nav img{
+    right: 150px;
+  }
+}
+
+@media screen and (max-width: 1100px){
+  nav img{
+    right: 120px;
+  }
+}
+@media screen and (max-width: 1080px){
+  .navigation{
+    display: none;
+  }
+  .sideMenu{
+    visibility: visible !important;
+  }
+  nav img{
+    right: 180px;
+  }
+}
+
+.sideMenu{
+  visibility: hidden;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #3754b6;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}
