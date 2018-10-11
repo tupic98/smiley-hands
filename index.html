@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">  
     <link rel="stylesheet" href="css/style.css">
     <script async defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script async defer src="./js/main.js"></script>
@@ -23,7 +25,7 @@
             <img id="logo" src="./assets/logo.png" alt="Logo">
         </nav>
     </header>
-    <div class="portion">
+    <div class="portion" id="Inicio">
         <h2>¿Quiénes somos?
           <p>Somos un grupo de cinco estudiantes de la carrera de Doctorado en cirugía dental de la
             universidad Evangélica de El Salvador que en vista de que la mayor parte de la población con
@@ -35,10 +37,11 @@
         </h2>
         
     </div>   
-    <div id="portion1" class="info">
-        <h3>Protocolo de información.</h3>
+    <div id="Protocolo" class="info">
+        <h3>PROTOCOLO DE ATENCIÓN</h3>
     </div>
     <div class="protocol_buttons">
+      <div class="protocol_container">
         <div class="btns">
             <div id="asidee" class="profile-card">
                 <div id="headerr" class="headeer">
@@ -53,8 +56,8 @@
             </div>
             <div id="asidee" class="profile-card">
                 <div id="headerr" class="headeer">
-                    <a href="#">
-                        <img src="./assets/protocolos/parent.png">
+                    <a href="#" >
+                        <img onmouseover="chbg()" src="./assets/protocolos/parent.png">
                     </a>
                     <h1>Atención en adultos con discapacidad auditiva.</h1>
                 </div>
@@ -74,9 +77,10 @@
                 </div>
             </div>
         </div>
+        </div>
     </div>
-    <div class="abecedario">
-            <h2>Abecedario</h2>
+    <div class="abecedario" id="Abecedario">
+      <h3>Abecedario</h3>
     </div>
     <div class="slideshow-container">
       <div class="mySlides fade">
@@ -114,7 +118,7 @@
           <div class="gallery__image">
             <img src="./assets/señas/f.jpg" alt="" class="gallery__img">
             <div class="middle">
-              <div class="text">F</div>
+              <div class="text">F</div>#465da7ad;
             </div>
           </div>
           <div class="gallery__image">
@@ -280,131 +284,215 @@
             <span class="dot" onclick="currentSlide(2)"></span> 
             <span class="dot" onclick="currentSlide(3)"></span> 
     </div>
-    <div class="video-gallery">
+    <div class="video-gallery" id="Lenguaje">
       <!-- Hidden video div -->
       <div class="w3-content" >
-        <div id="movie-area">
-          <video class="mySlides2 fade" width="540" height="320" muted preload="metadata" loop="loop" controls="true">
-            <source src="./assets/videos/boca.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video>
-          <video class="mySlides2 fade" width="540" height="320" muted preload="nmetadata" loop="loop" controls="true">
-              <source src="./assets/videos/morder.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          <video class="mySlides2 fade" width="540" height="320" muted preload="metadata" loop="loop" controls="true">
-              <source src="./assets/videos/enjuagarse.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          <video class="mySlides2 fade" width="540" height="320" muted preload="metadata" loop="loop" controls="true">
-              <source src="./assets/videos/sentarse.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          <video class="mySlides2 fade" width="540" height="320" muted preload="metadat" loop="loop" controls="true">
-              <source src="./assets/videos/esperar.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          <video class="mySlides2 fade" width="540" height="320" muted preload="metadata" loop="loop" controls="true">
-              <source src="./assets/videos/tratamiento.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          <video class="mySlides2 fade" width="540" height="320" muted preload="metadata" loop="loop" controls="true">
-            <source src="./assets/videos/boca.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video>
-          <video class="mySlides2 fade" width="540" height="320" muted preload="nmetadata" loop="loop" controls="true">
-              <source src="./assets/videos/morder.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          <video class="mySlides2 fade" width="540" height="320" muted preload="metadata" loop="loop" controls="true">
-              <source src="./assets/videos/enjuagarse.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          <video class="mySlides2 fade" width="540" height="320" muted preload="metadata" loop="loop" controls="true">
-              <source src="./assets/videos/sentarse.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          <video class="mySlides2 fade" width="540" height="320" muted preload="metadat" loop="loop" controls="true">
-              <source src="./assets/videos/esperar.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          <video class="mySlides2 fade" width="540" height="320" muted preload="metadata" loop="loop" controls="true">
-              <source src="./assets/videos/tratamiento.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          <video class="mySlides2 fade" width="540" height="320" muted preload="metadata" loop="loop" controls="true">
-            <source src="./assets/videos/boca.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video>
-          <video class="mySlides2 fade" width="540" height="320" muted preload="nmetadata" loop="loop" controls="true">
-              <source src="./assets/videos/morder.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          <video class="mySlides2 fade" width="540" height="320" muted preload="metadata" loop="loop" controls="true">
-              <source src="./assets/videos/enjuagarse.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          <video class="mySlides2 fade" width="540" height="320" muted preload="metadata" loop="loop" controls="true">
-              <source src="./assets/videos/sentarse.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          <video class="mySlides2 fade" width="540" height="320" muted preload="metadat" loop="loop" controls="true">
-              <source src="./assets/videos/esperar.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          <video class="mySlides2 fade" width="540" height="320" muted preload="metadata" loop="loop" controls="true">
-              <source src="./assets/videos/tratamiento.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          <video class="mySlides2 fade" width="540" height="320" muted preload="metadata" loop="loop" controls="true">
-            <source src="./assets/videos/boca.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video>
-          <video class="mySlides2 fade" width="540" height="320" muted preload="nmetadata" loop="loop" controls="true">
-              <source src="./assets/videos/morder.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          <video class="mySlides2 fade" width="540" height="320" muted preload="metadata" loop="loop" controls="true">
-              <source src="./assets/videos/enjuagarse.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          <video class="mySlides2 fade" width="540" height="320" muted preload="metadata" loop="loop" controls="true">
-              <source src="./assets/videos/sentarse.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          <video class="mySlides2 fade" width="540" height="320" muted preload="metadat" loop="loop" controls="true">
-              <source src="./assets/videos/esperar.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          <video class="mySlides2 fade" width="540" height="320" muted preload="metadata" loop="loop" controls="true">
-              <source src="./assets/videos/tratamiento.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          <video class="mySlides2 fade" width="540" height="320" muted preload="metadata" loop="loop" controls="true">
-            <source src="./assets/videos/boca.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video>
-          <video class="mySlides2 fade" width="540" height="320" muted preload="nmetadata" loop="loop" controls="true">
-              <source src="./assets/videos/morder.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          <video class="mySlides2 fade" width="540" height="320" muted preload="metadata" loop="loop" controls="true">
-              <source src="./assets/videos/enjuagarse.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          <video class="mySlides2 fade" width="540" height="320" muted preload="metadata" loop="loop" controls="true">
-              <source src="./assets/videos/sentarse.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          <video class="mySlides2 fade" width="540" height="320" muted preload="metadat" loop="loop" controls="true">
-              <source src="./assets/videos/esperar.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          <video class="mySlides2 fade" width="540" height="320" muted preload="metadata" loop="loop" controls="true">
-              <source src="./assets/videos/tratamiento.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-              
+        <div id="movie-area" class="style-1">
+          <div class="mySlides2 fade video-card" >
+            <div class="video_container">
+                <h2>Abrir la boca</h2>
+              <video  width="540" height="320" muted preload="metadata" loop="loop" controls="true">
+                <source src="./assets/videos/boca.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="video_container">
+                <h2>Morder</h2>
+              <video  width="540" height="320" muted preload="metadata" loop="loop" controls="true">
+                <source src="./assets/videos/morder.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="video_container">
+                <h2>Enjuagarse</h2>
+              <video  width="540" height="320" muted preload="metadata" loop="loop" controls="true">
+                <source src="./assets/videos/enjuagarse.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="video_container">
+                <h2>Sentarse</h2>
+              <video  width="540" height="320" muted preload="metadata" loop="loop" controls="true">
+                <source src="./assets/videos/sentarse.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="video_container">
+                <h2>Esperar</h2>
+              <video  width="540" height="320" muted preload="metadata" loop="loop" controls="true">
+                <source src="./assets/videos/esperar.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="video_container">
+                <h2>Tratamiento</h2>
+              <video  width="540" height="320" muted preload="metadata" loop="loop" controls="true">
+                <source src="./assets/videos/tratamiento.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="video_container">
+                <h2>Profilaxis</h2>
+              <video  width="540" height="320" muted preload="metadata" loop="loop" controls="true">
+                <source src="./assets/videos/profilaxis.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="video_container">
+                <h2>Caries</h2>
+              <video  width="540" height="320" muted preload="metadata" loop="loop" controls="true">
+                <source src="./assets/videos/caries.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="video_container">
+                <h2>Obturación de resina</h2>
+              <video  width="540" height="320" muted preload="metadata" loop="loop" controls="true">
+                <source src="./assets/videos/obturacion_resina.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="video_container">
+                <h2>Obturación de amalgama</h2>
+              <video  width="540" height="320" muted preload="metadata" loop="loop" controls="true">
+                <source src="./assets/videos/obturacion_amalgama.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="video_container">
+                <h2>Endodoncia</h2>
+              <video  width="540" height="320" muted preload="metadata" loop="loop" controls="true">
+                <source src="./assets/videos/endodoncia.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="video_container">
+                <h2>Extraccion</h2>
+              <video  width="540" height="320" muted preload="metadata" loop="loop" controls="true">
+                <source src="./assets/videos/extraccion.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="video_container">
+                <h2>Protesis</h2>
+              <video  width="540" height="320" muted preload="metadata" loop="loop" controls="true">
+                <source src="./assets/videos/protesis.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="video_container">
+                <h2>Corona</h2>
+              <video  width="540" height="320" muted preload="metadata" loop="loop" controls="true">
+                <source src="./assets/videos/corona.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="video_container">
+                <h2>Odontólogo</h2>
+              <video  width="540" height="320" muted preload="metadata" loop="loop" controls="true">
+                <source src="./assets/videos/odontólogo.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="video_container">
+                <h2>Anestesia</h2>
+              <video  width="540" height="320" muted preload="metadata" loop="loop" controls="true">
+                <source src="./assets/videos/anestesia.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="video_container">
+                <h2>Blanqueamiento</h2>
+              <video  width="540" height="320" muted preload="metadata" loop="loop" controls="true">
+                <source src="./assets/videos/blanqueamiento.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="video_container">
+                <h2>Sangre</h2>
+              <video  width="540" height="320" muted preload="metadata" loop="loop" controls="true">
+                <source src="./assets/videos/sangre.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="video_container">
+                <h2>Enfermedad</h2>
+              <video  width="540" height="320" muted preload="metadata" loop="loop" controls="true">
+                <source src="./assets/videos/enfermedad.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="video_container">
+                <h2>Medicina</h2>
+              <video  width="540" height="320" muted preload="metadata" loop="loop" controls="true">
+                <source src="./assets/videos/medicina.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="video_container">
+                <h2>Implante</h2>
+              <video  width="540" height="320" muted preload="metadata" loop="loop" controls="true">
+                <source src="./assets/videos/implante.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="video_container">
+                <h2>Periodontitis</h2>
+              <video  width="540" height="320" muted preload="metadata" loop="loop" controls="true">
+                <source src="./assets/videos/periodontitis.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="video_container">
+                <h2>Sin dolor</h2>
+              <video  width="540" height="320" muted preload="metadata" loop="loop" controls="true">
+                <source src="./assets/videos/sin_dolor.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="video_container">
+                <h2>Asistente dental</h2>
+              <video  width="540" height="320" muted preload="metadata" loop="loop" controls="true">
+                <source src="./assets/videos/asistente_dental.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="video_container">
+                <h2>Dolor</h2>
+              <video  width="540" height="320" muted preload="metadata" loop="loop" controls="true">
+                <source src="./assets/videos/dolor.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="video_container">
+                <h2>Diente</h2>
+              <video  width="540" height="320" muted preload="metadata" loop="loop" controls="true">
+                <source src="./assets/videos/diente.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="video_container">
+                <h2>Encía</h2>
+              <video  width="540" height="320" muted preload="metadata" loop="loop" controls="true">
+                <source src="./assets/videos/encia.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="video_container">
+                <h2>Aparato provisional</h2>
+              <video  width="540" height="320" muted preload="metadata" loop="loop" controls="true">
+                <source src="./assets/videos/aparato_provisional.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="video_container">
+                <h2>Aparato Definitivo</h2>
+              <video  width="540" height="320" muted preload="metadata" loop="loop" controls="true">
+                <source src="./assets/videos/aparato_definitivo.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+            </div>
+        </div>
         </div>  
       </div>
       <div class="w3-center">
@@ -419,5 +507,6 @@
       <p>&copy; 2018 Smiley Hands</p>
       
     </footer>
+    <a href="#Inicio" id="HomeBtn"><i class="fas fa-chevron-up"></i></a>
 </body>
 </html>
