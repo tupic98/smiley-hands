@@ -1,10 +1,24 @@
 :root {
   font-family: 'Raleway', sans-serif;
+  width: 100%;
 }
 
 html {
   scroll-behavior: smooth;
   box-sizing: border-box;
+  width: 100%;
+}
+.content{
+  margin-left:20%;
+  margin-right: 20%; 
+}
+
+.content{
+  text-align: justify;
+}
+
+.content ul li p{
+  text-align: justify;
 }
 
 .mySlides {display: none}
@@ -92,157 +106,6 @@ html {
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
-
-
-/*
-body{
-  margin-top: -20px;
-  margin-left: 0px;
-  padding: 0;
-}
-
-header nav{
-  display: flex-block;
-  background: #596cad;
-  padding-left: 125px;
-  color: white;
-  font-size: 1em;
-  height: 52px;
-  position: fixed;
-  width: 100%;
-  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
-          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
-}
-
-header nav a{
-  color: inherit;
-  text-decoration: none;
-  display: inline-block;
-  padding: 2em 1em .5em;
-  padding-top: 15px;
-  padding-right: 10px;
-  padding-left: 10px;
-  padding-bottom: 10px;
-  font-family: Montserrat;
-  font-size: 16px;
-  font-weight: 700;
-  text-transform: uppercase;
-  -webkit-transition: all .3s ease-in;
-  -moz-transition: all .3s ease-in;
-  -o-transition: all .3s ease-in;
-  transition: all .3s ease-in;
-  -webkit-transition: color 0.7s;
-  -moz-transition: color 0.7s;
-  -o-transition: color 0.7s;
-  transition: color 0.7s;
-}
-
-header nav a:hover {
-  color: #6377b9;
-}
-
-nav img{
-  display: block;
-  float: right;
-  padding-top: 3px;
-  padding-right: 275px;
-}
-
-nav span {
-  position: absolute;
-  left: 40px;
-  top: 10px;
-  font-weight: bold;
-  transition: all 0.5s ease-in;
-}
-
-.portion {
-  background-image:  url(../assets/fondo.jpg);
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover;
-  text-align: center;
-}
-
-.movetext {
-  top: -30px;
-}
-/* nav {
-  display: flex-block;
-  position: fixed; 
-  width: 100%;
-  height: 52px;
-  padding-left: 125px;
-  opacity: 1;
-  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
-          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
-  background-color: #596cad;
-}
-
-nav a {
-  display: block;
-  text-decoration: none;
-  color: white;
-  float: left;
-  padding-top: 15px;
-  padding-right: 10px;
-  padding-left: 10px;
-  padding-bottom: 10px;
-  font-family: Montserrat;
-  font-size: 16px;
-  font-weight: 700;
-  text-transform: uppercase;
-  -webkit-transition: color 0.7s;
-  -moz-transition: color 0.7s;
-  -o-transition: color 0.7s;
-  transition: color 0.7s;
-  -webkit-transition: font-size 1s ease-in;
-  -moz-transition: font-size 1s ease-in;
-  -o-transition: font-size 1s ease-in;
-  transition: font-size 1s;
-}
-
-nav a:hover{
-  color: #6377b9;
-}
-
-nav img{
-  display: block;
-  float: right;
-  padding-top: 3px;
-  padding-right: 275px;
-}
-
-header{
-  background-image: url(../assets/fondo1.jpeg);
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-header>*{
-  z-index: 1;
-}
-
-header::after{
-  content: "";
-  position: absolute;
-  background: blue;
-  opacity: 0.5;
-
-  z-index: 0;
-}
-
-.parallax{
-  
-     min-height: 200px; 
-     opacity: 0.5;
-     background-attachment: fixed;
-    background-position-x: 52px;
-     background-repeat: no-repeat;
-     background-size: cover;
-     position: relative;
-} */ 
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
@@ -379,7 +242,6 @@ header nav {
   width: 100%;
   -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
-
   transition: all 0.5s linear;
   z-index: 1;
 }
@@ -466,6 +328,24 @@ nav img{
   padding: 1em 0;
 }
 
+.child_protocol{
+  background: #596cad;
+  color: white;
+  padding-top: 2em;
+  padding-bottom: 0.2em;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.child_protocol h3{
+  text-align: center;
+  font-weight: normal;
+  font-size: 3em;
+  margin: 2% 8%;
+  text-shadow: 0 0 10px black;
+  text-transform: uppercase;
+}
+
 .footer{
   background: #1b274e;
   position: relative;
@@ -475,24 +355,13 @@ nav img{
   text-align: center;
 }
 
-/* .protocol_buttons{
-  background: #596cad url(../assets/protocolbg.png);
-  padding: 0.5em 20%;
-} 
-.protocol_buttons::before{
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  z-index: -1;
-  display: block;
-  width: 100%;
-  opacity: 0.8;
-
+.footer2{
+  background: #1b274e;
+  position: relative;
+  color: white;
+  padding: 1em 0;
+  text-align: center;
 }
-*/
-
-
 
 .protocol_buttons{
   background: #596cad url(../assets/protocolbg.png);
@@ -1193,7 +1062,130 @@ label{
   height: 150px;
   margin-bottom: 15px; 
 }
-
+@media only screen and (min-device-width : 320px) and (max-device-width : 640px) {
+  .child_protocol h3{
+    font-size: 1.5em;
+    padding-top: 30px;
+  }  
+  .portion h2{
+      height: 555px;
+    font-size: 2.0em;
+    padding-top: 2em;
+    }
+    .portion{
+      width: 100%;
+    }
+    .portion h2 p{
+      font-size:16px;
+    padding: 3em 3rem !important;
+    }
+    header nav{
+      padding-left: 150px !important;
+    }
+    .info h3{
+      font-size: 1.5em;
+    }
+    .info{
+      width: 100%
+    }
+    .protocol_buttons{
+      width: 100%;
+      height: 900px;
+    }
+    .headeer img {
+      border-radius: 50%;
+      margin: 20px auto;
+      display: block;
+      width: 50px;
+      border: 5px solid #fff;
+    }
+    .profile-card {
+      border-top: 0px solid #26A69A;
+      border-bottom: 0px solid #00695C;
+      border-radius: 5%;
+      margin: 20px auto;
+      display: block;
+      height: 150px;
+      width: 150px;
+      background: #596cad;
+      background-size: cover;
+      overflow: hidden;
+      box-shadow: 0 0 100px 2px #fff;
+      transition: all ease 0.3s;
+    }
+    .headeer h1 {
+      position: relative;
+      text-align: center;
+      color: #fff;
+      text-shadow: 1px 1px rgba(0, 0, 0, 10);
+      font-size: 14px;
+      line-height: 25px;
+      display: inline-block;
+      padding: 10px;
+      transition: all ease 0.250s;
+      border-top: 1px solid #fff;
+  }
+    .abecedario{
+      top: 150px;
+    }
+    .abecedario h3{
+      font-size: 1.5em;
+    }
+    .gallery{
+      top: 150px;
+    }
+    .gallery{
+      background-color: #596cad;
+      position: relative;
+      margin: 0px ;
+      display: flex;
+      flex-flow: row wrap;
+      padding: 0 0px;
+      padding-bottom: 80px;
+      justify-content: center;
+    }
+    
+    .gallery__image{
+      flex: 1 0 25%;
+      min-width: 10em;
+      max-width: 10rem;
+      max-height: 10rem;
+      min-height: 10rem;
+      margin: 2px;
+      display: flex;
+      position: relative;
+      justify-content: flex-start;
+    }
+    
+    .gallery__img{
+      width: 10rem;
+      height: 10rem;
+      opacity: 1;
+      -webkit-transition: opacity 0.8s ease;
+      -moz-transition: opacity 0.8s ease;
+      -o-transition: opacity 0.8s ease;
+      transition: opacity 0.8s ease;
+      backface-visibility: hidden;
+    }
+    .lenguaje{
+      top: 850px;
+    }
+    .lenguaje h3{
+      font-size: 1.5em;
+    }
+    .video-gallery{
+      top:950px;
+    }
+    .prevencion{
+      top:1170px;
+    }
+    .prevencion h3{
+      font-size: 1.5em;
+    }
+    .contactanos h3{
+      font-size: 1.5em;
+    }
+}
 @media screen and (max-width: 1450px){
   .protocol_buttons p{
     opacity: 1;
